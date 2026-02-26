@@ -1,0 +1,527 @@
+.swiper {
+    width: 25rem !important;
+    height: 35rem !important;
+    padding: 3rem 0 !important;
+}
+
+.swiper-slide {
+    position: relative !important;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 10px !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color: #ffbe73;
+    border: .25rem solid #ffeedc;
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: #9c090c;
+    border: .25rem solid #ffdcdc;
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: #f0cc02;
+    border: .25rem solid #fffddc;
+}
+
+.swiper-slide:nth-child(4n) {
+    background-color: #1a1518;
+    border: .25rem solid #D79545;
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: #5f2e87;
+    border: .25rem solid #d745d0;
+}
+
+.swiper-slide:nth-child(6n) {
+    background-color: #ad4f32;
+    border: .25rem solid #d78c45;
+}
+
+.swiper-slide:nth-child(7n) {
+    background-color: #0ff2f2;
+    border: .25rem solid #45d7d2;
+}
+
+.swiper-slide:nth-child(8n) {
+    background-image: linear-gradient(0deg, #ffe95c,
+            #ed66a1 15%,
+            #6e3c96 50%,
+            #2297d6 85%,
+            #317bd4 100%);
+    border: .25rem solid #56a9d6;
+}
+
+.swiper-slide:nth-child(9n) {
+    background-color: #dccae3;
+    border: .25rem solid #b27fb5;
+}
+
+.swiper-slide:nth-child(10n) {
+    background-image: url(../images/cj.jpeg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: .25rem solid #a3a0ff;
+}
+
+.swiper-slide img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-position {
+    object-position: 50% 0%;
+}
+
+.cd-1,
+.cd-2,
+.cd-3,
+.cd-4,
+.cd-5,
+.cd-6,
+.cd-7,
+.cd-8,
+.cd-9,
+.cd-10 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cd-10-frame {
+    position: absolute;
+    height: 464px !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.cd-title {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #ffffe8 !important;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-2-title {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #fae1c2 !important;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-3-title1 {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #f6ffc4;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-3-title2 {
+    width: 100% !important;
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.25rem !important;
+    color: #f6ffc4;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-4-title1 {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #D79545;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-4-title2 {
+    width: 100% !important;
+    position: absolute;
+    top: 18rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #D79545;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-5-title {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #eb78ab;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-6-title1 {
+    width: 100% !important;
+    font-size: 2.5rem !important;
+    text-align: center;
+    color: #f2af50;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-6-title2 {
+    width: 100% !important;
+    font-size: 2.5rem !important;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #f2af50;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-6-title3 {
+    width: 100% !important;
+    font-size: 2.5rem !important;
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #f2af50;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-6-title4 {
+    width: 100% !important;
+    position: absolute;
+    top: 17.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #f2af50;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-7-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #173f8f;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-8-title1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #ffe95c;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-8-title2 {
+    position: absolute;
+    top: 10rem;
+    left: 30%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #ffe95c;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-8-title3 {
+    width: 100% !important;
+    position: absolute;
+    top: 18rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #ffe95c;
+    font-weight: 700 !important;
+    z-index: 2;
+}
+
+.cd-9-title1 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 0 !important;
+    left: 50% !important;
+    font-size: 2rem !important;
+    color: #805b7e;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-9-title2 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 2.3rem !important;
+    left: 50% !important;
+    font-size: 2rem !important;
+    color: #805b7e;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-9-title3 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 5rem !important;
+    left: 50% !important;
+    font-size: 2rem !important;
+    font-weight: bolder !important;
+    color: #e8fa43;
+    background-color: #b082b5;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-9-title4 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 15rem;
+    left: 6.5rem;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 2rem !important;
+    color: #805b7e;
+    z-index: 2;
+}
+
+.cd-10-title1 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 0 !important;
+    left: 50% !important;
+    font-size: 1.25rem !important;
+    font-weight: bolder !important;
+    color: #e6d518;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-10-title2 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 3rem !important;
+    left: 50% !important;
+    font-size: 1.1rem !important;
+    font-weight: bolder !important;
+    color: #ffffff;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-10-title3 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 6rem !important;
+    left: 50% !important;
+    font-size: 1.25rem !important;
+    font-weight: bolder !important;
+    color: #ffffff;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-10-title-4 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 10rem !important;
+    left: 50% !important;
+    font-size: 1.25rem !important;
+    color: #ffffff;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-10-title-5 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 14rem !important;
+    left: 50% !important;
+    font-size: 1.25rem !important;
+    color: #ffffff;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.cd-10-title-6 {
+    text-align: center;
+    width: 100% !important;
+    position: absolute;
+    top: 17rem !important;
+    left: 50% !important;
+    font-size: 2rem !important;
+    color: #ffffff;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+
+.cd-1>img {
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cd-2>img {
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cd-3>img {
+    position: absolute;
+    top: 5rem;
+    left: 23%;
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cd-4>img {
+    border: 1px solid #D79545;
+    border-radius: .5rem;
+    position: absolute;
+    top: 80%;
+    left: 11%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cd-5>img {
+    position: absolute;
+    top: 10rem;
+    left: 15%;
+    width: 275px !important;
+    height: 275px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img1 {
+    position: absolute;
+    top: 11.5rem !important;
+    left: 30% !important;
+    width: 150px !important;
+    height: 75px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img2 {
+    position: absolute;
+    top: 7.5rem !important;
+    left: 25% !important;
+    width: 200px !important;
+    height: 100px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cf_img1 {
+    position: absolute;
+    top: 8rem !important;
+    left: -10% !important;
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cf_img2 {
+    position: absolute;
+    top: 10rem !important;
+    left: 10% !important;
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cf_img3 {
+    position: absolute;
+    top: 8rem !important;
+    left: 30% !important;
+    width: 300px !important;
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gems_img1 {
+    position: absolute;
+    top: 10rem !important;
+    left: 45% !important;
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cd-9>img {
+    position: absolute;
+    top: 11rem !important;
+    left: 31% !important;
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover;
+    object-position: center;
+}
